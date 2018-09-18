@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/npm-github-config.svg)](https://www.npmjs.com/package/npm-github-config)
 [![npm downloads](https://img.shields.io/npm/dm/npm-github-config.svg)](https://www.npmjs.com/package/npm-github-config)
 [![Build Status](https://img.shields.io/travis/lgaticaq/npm-github-config.svg)](https://travis-ci.org/lgaticaq/npm-github-config)
-[![Code Climate](https://img.shields.io/codeclimate/github/lgaticaq/npm-github-config.svg)](https://codeclimate.com/github/lgaticaq/npm-github-config)
+[![Maintainability](https://api.codeclimate.com/v1/badges/707123360dd51ea1ffaf/maintainability)](https://codeclimate.com/github/lgaticaq/npm-github-config/maintainability)
 [![devDependency Status](https://img.shields.io/david/dev/lgaticaq/npm-github-config.svg)](https://david-dm.org/lgaticaq/npm-github-config#info=devDependencies)
 
 > [Semantic-release](https://github.com/semantic-release/semantic-release) shareable config for [NPM](https://www.npmjs.com/) with [GitHub](https://github.com/).
