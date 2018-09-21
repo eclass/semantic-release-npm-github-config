@@ -13,7 +13,7 @@
 ### Local installation
 
 ```bash
-npm i -D semantic-release npm-github-config
+npm i -D semantic-release npm-github-config @semantic-release/{changelog,git,npm}
 ```
 
 In `package.json`:
@@ -29,7 +29,7 @@ In `package.json`:
 ### Global installation
 
 ```bash
-$ npm i -g semantic-release npm-github-config
+$ npm i -g semantic-release npm-github-config @semantic-release/{changelog,git,npm}
 $ semantic-release -e npm-github-config
 ```
 
