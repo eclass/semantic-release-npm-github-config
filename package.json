@@ -90,8 +90,7 @@
   "renovate": {
     "automerge": "minor",
     "extends": [
-      "config:base",
-      ":pinOnlyDevDependencies"
+      "config:js-lib"
     ]
   },
   "release": {
