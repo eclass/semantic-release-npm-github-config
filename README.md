@@ -1,10 +1,10 @@
-# npm-github-config
+# @eclass/semantic-release-npm-github-config
 
-[![npm version](https://img.shields.io/npm/v/npm-github-config.svg)](https://www.npmjs.com/package/npm-github-config)
-[![npm downloads](https://img.shields.io/npm/dm/npm-github-config.svg)](https://www.npmjs.com/package/npm-github-config)
-[![Build Status](https://img.shields.io/travis/lgaticaq/npm-github-config.svg)](https://travis-ci.org/lgaticaq/npm-github-config)
-[![Maintainability](https://api.codeclimate.com/v1/badges/707123360dd51ea1ffaf/maintainability)](https://codeclimate.com/github/lgaticaq/npm-github-config/maintainability)
-[![devDependency Status](https://img.shields.io/david/dev/lgaticaq/npm-github-config.svg)](https://david-dm.org/lgaticaq/npm-github-config#info=devDependencies)
+[![npm version](https://img.shields.io/npm/v/@eclass/semantic-release-npm-github-config.svg)](https://www.npmjs.com/package/@eclass/semantic-release-npm-github-config)
+[![npm downloads](https://img.shields.io/npm/dm/@eclass/semantic-release-npm-github-config.svg)](https://www.npmjs.com/package/@eclass/semantic-release-npm-github-config)
+[![Build Status](https://travis-ci.org/eclass/semantic-release-npm-github-config.svg?branch=master)](https://travis-ci.org/eclass/semantic-release-npm-github-config)
+[![Maintainability](https://api.codeclimate.com/v1/badges/ac3f78a532b19f7ee027/maintainability)](https://codeclimate.com/github/eclass/semantic-release-npm-github-config/maintainability)
+[![devDependency Status](https://img.shields.io/david/dev/eclass/semantic-release-npm-github-config.svg)](https://david-dm.org/eclass/semantic-release-npm-github-config#info=devDependencies)
 
 > [Semantic-release](https://github.com/semantic-release/semantic-release) shareable config for [NPM](https://www.npmjs.com/) with [GitHub](https://github.com/).
 
@@ -13,7 +13,7 @@
 ### Local installation
 
 ```bash
-npm i -D semantic-release npm-github-config @semantic-release/{changelog,git}
+npm i -D semantic-release @eclass/semantic-release-npm-github-config @semantic-release/{changelog,git}
 ```
 
 In `package.json`:
@@ -21,7 +21,7 @@ In `package.json`:
 ```json
 {
   "release": {
-    "extends": "npm-github-config"  
+    "extends": "@eclass/semantic-release-npm-github-config"  
   }
 }
 ```
@@ -29,8 +29,8 @@ In `package.json`:
 ### Global installation
 
 ```bash
-$ npm i -g semantic-release npm-github-config @semantic-release/{changelog,git}
-$ semantic-release -e npm-github-config
+$ npm i -g semantic-release @eclass/semantic-release-npm-github-config @semantic-release/{changelog,git}
+$ semantic-release -e @eclass/semantic-release-npm-github-config
 ```
 
 ## Configuration
@@ -64,7 +64,7 @@ For example to set a custom GitHub URL:
 ```json
 {
   "release": {
-    "extends": "npm-github-config",
+    "extends": "@eclass/semantic-release-npm-github-config",
     "githubUrl": "https://custom.github.com"
   }
 }

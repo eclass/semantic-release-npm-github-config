@@ -1,5 +1,5 @@
 {
-  "name": "npm-github-config",
+  "name": "@eclass/semantic-release-npm-github-config",
   "version": "2.0.1",
   "description": "Semantic-release shareable config for NPM with Github",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lgaticaq/npm-github-config.git"
+    "url": "https://github.com/eclass/semantic-release-npm-github-config.git"
   },
   "keywords": [
     "github",
@@ -27,9 +27,9 @@
   "author": "Leonardo Gatica <lgatica@protonmail.com> (https://about.me/lgatica)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lgaticaq/npm-github-config/issues"
+    "url": "https://github.com/eclass/semantic-release-npm-github-config/issues"
   },
-  "homepage": "https://github.com/lgaticaq/npm-github-config#readme",
+  "homepage": "https://github.com/eclass/semantic-release-npm-github-config#readme",
   "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "8.2.0",
