@@ -3,7 +3,7 @@ cache:
   directories:
     - ~/.npm
 node_js:
-  - "10"
+  - "12"
 notifications:
   email: false
 stages:
@@ -22,8 +22,8 @@ jobs:
       script: commitlint-travis
     - stage: test
       node_js:
+        - "12"
         - "10"
-        - "8"
       script: npm t
     - stage: deploy
       script: npx semantic-release
