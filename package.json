@@ -1,6 +1,6 @@
 {
   "name": "npm-github-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Semantic-release shareable config for NPM with Github",
   "main": "index.js",
   "scripts": {
