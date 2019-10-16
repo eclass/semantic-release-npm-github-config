@@ -7,16 +7,15 @@ node_js:
 notifications:
   email: false
 stages:
-  - lint
   - test
   - name: deploy
     if: branch = master
 jobs:
   include:
-    - stage: lint
+    - stage: test
       name: eslint
       script: npx eslint .
-    - stage: lint
+    - stage: test
       name: commitlint
       before_script:
         - npm i -g @commitlint/travis-cli
