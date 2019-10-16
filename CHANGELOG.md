@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/eclass/semantic-release-npm-github-config/compare/v2.0.1...v3.0.0) (2019-10-16)
+
+
+### Bug Fixes
+
+* **deps:** set min node version to v10 ([f157d41](https://github.com/eclass/semantic-release-npm-github-config/commit/f157d41))
+
+
+### BREAKING CHANGES
+
+* **deps:** Min node version set to v10
+
 ## [2.0.1](https://github.com/lgaticaq/npm-github-config/compare/v2.0.0...v2.0.1) (2019-10-16)
 
 

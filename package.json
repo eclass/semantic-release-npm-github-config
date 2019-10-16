@@ -1,6 +1,6 @@
 {
   "name": "@eclass/semantic-release-npm-github-config",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "Semantic-release shareable config for NPM with Github",
   "main": "index.js",
   "scripts": {
