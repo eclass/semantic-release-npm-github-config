@@ -50,7 +50,7 @@
     "husky": "4.2.1",
     "lint-staged": "9.5.0",
     "prettier-standard": "16.1.0",
-    "semantic-release": "16.0.1"
+    "semantic-release": "16.0.4"
   },
   "peerDependencies": {
     "@semantic-release/changelog": "^3.0.0",
