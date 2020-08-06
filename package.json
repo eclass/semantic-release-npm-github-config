@@ -32,8 +32,8 @@
   "homepage": "https://github.com/eclass/semantic-release-npm-github-config#readme",
   "dependencies": {},
   "devDependencies": {
-    "@commitlint/cli": "8.3.5",
-    "@commitlint/config-conventional": "8.3.4",
+    "@commitlint/cli": "9.1.1",
+    "@commitlint/config-conventional": "9.1.1",
     "@eclass/eslint-config": "2.0.0",
     "@semantic-release/changelog": "5.0.1",
     "@semantic-release/git": "9.0.0",
