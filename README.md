@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@eclass/semantic-release-npm-github-config.svg)](https://www.npmjs.com/package/@eclass/semantic-release-npm-github-config)
 [![npm downloads](https://img.shields.io/npm/dm/@eclass/semantic-release-npm-github-config.svg)](https://www.npmjs.com/package/@eclass/semantic-release-npm-github-config)
-[![Build Status](https://travis-ci.org/eclass/semantic-release-npm-github-config.svg?branch=master)](https://travis-ci.org/eclass/semantic-release-npm-github-config)
+![Node.js CI](https://github.com/eclass/semantic-release-npm-github-config/workflows/Node.js%20CI/badge.svg)
 [![Maintainability](https://api.codeclimate.com/v1/badges/ac3f78a532b19f7ee027/maintainability)](https://codeclimate.com/github/eclass/semantic-release-npm-github-config/maintainability)
 [![devDependency Status](https://img.shields.io/david/dev/eclass/semantic-release-npm-github-config.svg)](https://david-dm.org/eclass/semantic-release-npm-github-config#info=devDependencies)
 
