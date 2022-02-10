@@ -1,3 +1,19 @@
+# [4.0.0](https://github.com/eclass/semantic-release-npm-github-config/compare/v3.0.1...v4.0.0) (2022-02-10)
+
+
+### Bug Fixes
+
+* **deps:** update sementic-release and plugins ([bd13f42](https://github.com/eclass/semantic-release-npm-github-config/commit/bd13f42eeaba60d33c0de332e2b5c4296833c97a))
+
+
+### BREAKING CHANGES
+
+* **deps:** Update min version of peerDependencies to:
+- @semantic-release/changelog >=6.0.0
+- @semantic-release/git >=10.0.0
+- semantic-release >=18.0.0
+- node >=16 || ^14.17
+
 ## [3.0.1](https://github.com/eclass/semantic-release-npm-github-config/compare/v3.0.0...v3.0.1) (2020-04-19)
 
 ### Bug Fixes
