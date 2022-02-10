@@ -8,7 +8,8 @@
     "lint:check": "eslint .",
     "format": "prettier --write '*.{js,json,md}' '.prettierrc' '.{github,vscode}/**/*'",
     "format:check": "prettier --check '*.{js,json,md}' '.prettierrc' '.{github,vscode}/**/*'",
-    "test": "echo 'no test'"
+    "test": "echo 'no test'",
+    "prepare": "husky install"
   },
   "engines": {
     "node": ">=10"
@@ -41,7 +42,7 @@
     "eslint-config-prettier": "8.3.0",
     "eslint-config-standard": "17.0.0-1",
     "eslint-plugin-prettier": "4.0.0",
-    "husky": "4.3.8",
+    "husky": "7.0.4",
     "lint-staged": "12.3.3",
     "prettier": "2.5.1",
     "semantic-release": "17.2.3"
@@ -50,12 +51,6 @@
     "@semantic-release/changelog": "^3.0.0 || ^5.0.0",
     "@semantic-release/git": "^7.0.4 || ^8.0.0 || ^9.0.0",
     "semantic-release": "^15.9.0 || ^16.0.0 || ^17.0.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   },
   "renovate": {
     "extends": [
