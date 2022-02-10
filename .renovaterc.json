@@ -1,0 +1,3 @@
+{
+  "extends": ["github>eclass/renovate-config:js-lib"]
+}
