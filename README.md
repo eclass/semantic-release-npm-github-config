@@ -21,7 +21,7 @@ In `package.json`:
 ```json
 {
   "release": {
-    "extends": "@eclass/semantic-release-npm-github-config"  
+    "extends": "@eclass/semantic-release-npm-github-config"
   }
 }
 ```
@@ -49,9 +49,9 @@ See [Npm registry authentication](https://github.com/semantic-release/npm#npm-re
 
 ### Environment variables
 
-| Variable                     | Description                                                                                   |
-|------------------------------|----------------------------------------------------------------------                         |
-| `GH_TOKEN` or `GITHUB_TOKEN` | **Required.** The token used to authenticate with GitLab repository.                          |
+| Variable                     | Description                                                                                                                                 |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| `GH_TOKEN` or `GITHUB_TOKEN` | **Required.** The token used to authenticate with GitLab repository.                                                                        |
 | `NPM_TOKEN`                  | **Required.** Npm token created via [npm token create](https://docs.npmjs.com/getting-started/working_with_tokens#how-to-create-new-tokens) |
 
 ### Additional options
